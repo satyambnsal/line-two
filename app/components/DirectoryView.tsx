@@ -17,6 +17,12 @@ export default function DirectoryView() {
             The avatar passes your intent along, and the person decides whether
             to continue it.
           </p>
+          <Link
+            href="/onboarding"
+            className="w-fit self-center rounded-full border border-solid border-black/[.08] px-5 py-2.5 text-sm font-medium text-black transition-colors hover:bg-black/[.04] dark:border-white/[.145] dark:text-zinc-50 dark:hover:bg-white/[.06] sm:self-start"
+          >
+            Create your avatar
+          </Link>
         </header>
 
         <ul className="grid grid-cols-1 gap-4 sm:grid-cols-2">
